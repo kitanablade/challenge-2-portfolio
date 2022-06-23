@@ -1,0 +1,150 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --bg: skyblue;
+  --card-bg: white;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+header {
+    
+    width: 100%;
+  padding: 20px;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 32px;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-left: #2d4059 solid 5px;
+  margin-left: 200px;
+}
+
+#headline {
+  display: flex;
+  justify-content: flex-start;
+}
+/* Hero image */
+figure {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/sand-background.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#subtitle {
+  display: flex;
+  margin-right: 0;
+  padding: 10px;
+  justify-content: right;
+  float: right;
+  position: absolute;
+  top: 350px;
+  right: 20px;
+  background-color: #2a607c;
+}
+a {
+  padding: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 32px;
+  text-align: left;
+}
+
+h2 {
+}
+
+.categories div {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.category-headings {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  margin-left: 50px;
+  font-size: 48px;
+  text-align: right;
+  color: white;
+}
+
+.container {
+  margin-left: 300px;
+  padding: 40px;
+  margin-bottom: 80px;
+  border: 1px solid #fbfbfb;
+  border-left: #2d4059 solid 5px;
+  display: flex;
+  width: 100%;
+  background-color: bisque;
+  margin: auto;
+}
+
+#primary {
+  margin: 10px 10px;
+  /* padding: 20px; */
+  width: 96%;
+  height: 100px;
+  background-color: white;
+}
+
+.card {
+  margin: 30px 10px;
+  /* padding: 10px; */
+  width: 47%;
+  height: 100px;
+  background-color: var(--card-bg);
+  text-align: center;
+}
+
+footer {
+  background-color: salmon;
+  /* position:relative; */
+  bottom: 0%;
+  top: 
+  /* border-bottom: 200px; */
+  width: 100%;
+  text-align: center;
+}
