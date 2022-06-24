@@ -40,15 +40,6 @@ header a {
   text-decoration: none;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  border-left: #2d4059 solid 5px;
-  /* margin-left: 200px; */
-}
-
 #headline {
   display: flex;
   justify-content: flex-start;
@@ -90,14 +81,12 @@ h1 {
   text-align: left;
 }
 
-h2 {
+.categories {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
-.categories {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-}
 .categories div {
   display: flex;
   justify-content: flex-end;
@@ -105,10 +94,10 @@ h2 {
 }
 
 .category-headings {
-  display: flex;
-  flex-wrap: wrap;
-  /* float: left; */
-  margin-left: 50px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* float: right; */
+  /* margin-left: 50px; */
   font-size: 48px;
   text-align: right;
   color: white;
@@ -126,6 +115,14 @@ h2 {
   margin: auto;
 }
 
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-left: #2d4059 solid 5px;
+  /* margin-left: 200px; */
+
 #primary {
   margin: 10px 10px;
   /* padding: 20px; */
@@ -139,15 +136,24 @@ h2 {
   /* padding: 10px; */
   width: 47%;
   height: 100px;
-  background-color: var(--card-bg);
+  background-color: bisque;
   text-align: center;
 }
 
-footer {
-  background-color: salmon;
-  /* position:relative; */
-  bottom: 0%;
-  /* border-bottom: 200px; */
-  width: 100%;
-  text-align: center;
+#contact ul {
+  padding-top: 15px;
+  margin-right: 60px;
+  font-size: 16px;
+  justify-content: left;
+}
+
+#contact li {
+  display: inline-block;
+  justify-content: center;
+  /* margin-left: 25px; */
+}
+
+#contact a {
+  color: blue;
+  text-decoration: none;
 }
