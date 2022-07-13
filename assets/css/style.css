@@ -157,3 +157,12 @@ h1 {
   color: blue;
   text-decoration: none;
 }
+
+.container {
+  display: flex;
+  justify-content: left;
+}
+
+.container a {
+  color: blue;
+}
